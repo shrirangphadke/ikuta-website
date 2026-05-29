@@ -6,33 +6,32 @@ import { motion } from "framer-motion";
 
 const products = [
   {
-    title: "Slitter Line",
+    title: "Milling / Scalping Lines",
     description:
-      "High-precision metal slitting systems engineered for copper, steel and advanced strip processing applications.",
+      "Custom surface milling systems for copper and non-ferrous strip quality control.",
     image:
       "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1600&auto=format&fit=crop",
   },
 
   {
-    title: "Tension Leveler",
+    title: "Tension Leveler Lines",
     description:
-      "Advanced leveling technology delivering exceptional flatness, stability and processing consistency.",
+      "Advanced leveling technology for strip flatness, stability and processing consistency.",
     image:
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600&auto=format&fit=crop",
   },
 
   {
-    title: "Buffing Line",
+    title: "Degreasing, Pickling & Buffing",
     description:
-      "Premium surface finishing systems for mirror-finish industrial metal applications.",
-    image:
-      "https://images.unsplash.com/photo-1565431183443-8d41f5f41c9f?q=80&w=1600&auto=format&fit=crop",
+      "Surface treatment lines for cleaning, finishing and preparing advanced metal strip.",
+    image: "/images/factory-about.jpg",
   },
 
   {
-    title: "Automation Systems",
+    title: "Automation & Lifecycle Support",
     description:
-      "Integrated industrial automation engineered for productivity, precision and operational reliability.",
+      "Automation, software, maintenance, modification and overhaul support for production lines.",
     image:
       "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?q=80&w=1600&auto=format&fit=crop",
   },
@@ -46,16 +45,16 @@ export default function Products() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10 mb-20">
           <div className="max-w-3xl">
             <p className="uppercase tracking-[0.3em] text-orange-500 text-sm mb-6">
-              Product Solutions
+              Core Technologies
             </p>
 
             <h2 className="text-5xl lg:text-6xl font-black leading-tight">
-              Advanced Metal Processing Technologies
+              Production Lines for Advanced Metal Processing
             </h2>
           </div>
 
           <button className="flex items-center gap-2 text-zinc-300 hover:text-white transition">
-            View All Products
+            View Technology Range
             <ArrowRight size={18} />
           </button>
         </div>

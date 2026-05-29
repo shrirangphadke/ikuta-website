@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 
 const stats = [
   {
-    number: "100+",
-    label: "Years of Engineering",
+    number: "1919",
+    label: "Founded",
   },
   {
-    number: "1,000+",
-    label: "Machines Delivered",
+    number: "1953",
+    label: "Incorporated",
   },
   {
-    number: "30+",
-    label: "Countries Served",
+    number: "94",
+    label: "Employees",
   },
   {
-    number: "24/7",
-    label: "Technical Support",
+    number: "¥20M",
+    label: "Capital",
   },
 ];
 

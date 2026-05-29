@@ -1,16 +1,26 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="bg-black border-t border-white/10">
       <div className="section-container py-14 flex flex-col lg:flex-row justify-between gap-10">
         <div>
-          <h2 className="text-3xl font-black">
-            IKUTA<span className="text-orange-500">.</span>
-          </h2>
+          <Image
+            src="/images/ikuta-logo.svg"
+            alt="IKUTA"
+            width={158}
+            height={35}
+            className="h-9 w-auto invert"
+          />
+
+          <p className="mt-4 text-xs uppercase tracking-[0.3em] text-orange-500">
+            India Operations
+          </p>
 
           <p className="mt-4 text-zinc-500 max-w-md leading-relaxed">
-            Premium Japanese industrial systems engineered
-            for precision metal processing and modern
-            manufacturing excellence.
+            Japanese engineering heritage localized for Indian
+            manufacturers through technical coordination, application
+            support and lifecycle service.
           </p>
         </div>
 
@@ -34,10 +44,10 @@ export default function Footer() {
             </h3>
 
             <ul className="space-y-3 text-zinc-500">
-              <li>Slitter Line</li>
+              <li>Milling / Scalping</li>
               <li>Tension Leveler</li>
-              <li>Buffing Line</li>
-              <li>Automation Systems</li>
+              <li>Surface Treatment</li>
+              <li>Automation & Service</li>
             </ul>
           </div>
         </div>
@@ -46,7 +56,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="section-container py-6 text-sm text-zinc-600 flex flex-col lg:flex-row justify-between gap-4">
           <p>
-            © 2026 IKUTA Industrial Systems.
+            © 2026 IKUTA India Operations.
           </p>
 
           <p>

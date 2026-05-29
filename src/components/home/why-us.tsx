@@ -12,26 +12,26 @@ import { motion } from "framer-motion";
 const features = [
   {
     icon: ShieldCheck,
-    title: "Japanese Precision",
-    text: "Engineered with exceptional attention to quality, accuracy and long-term reliability.",
+    title: "100+ Years of Engineering",
+    text: "Kyoto-born machinery expertise shaped by more than a century of manufacturing practice.",
   },
 
   {
     icon: Cog,
-    title: "Manufacturing Excellence",
-    text: "Decades of industrial engineering expertise across advanced metal processing systems.",
+    title: "Custom Production Lines",
+    text: "Built around real factory constraints, material requirements and final product goals.",
   },
 
   {
     icon: Cpu,
-    title: "Modern Automation",
-    text: "Integrated automation technologies designed for productivity and operational efficiency.",
+    title: "Automation & Software",
+    text: "Integrated control, monitoring and software support for dependable line operation.",
   },
 
   {
     icon: Globe2,
-    title: "Global Standards",
-    text: "Trusted internationally by manufacturers requiring high-performance industrial solutions.",
+    title: "India-Local Coordination",
+    text: "Japan-backed technical expertise with closer communication for Indian manufacturers.",
   },
 ];
 
@@ -42,11 +42,11 @@ export default function WhyUs() {
         {/* Header */}
         <div className="max-w-4xl">
           <p className="uppercase tracking-[0.3em] text-orange-500 text-sm mb-6">
-            Why Choose Us
+            Why Ikuta India
           </p>
 
           <h2 className="text-5xl lg:text-6xl font-black leading-tight">
-            Precision. Reliability. Engineering Excellence.
+            Built for Long-Term Line Performance
           </h2>
         </div>
 

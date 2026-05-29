@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -18,13 +19,20 @@ export default function Navbar() {
       <div className="backdrop-blur-xl bg-black/40 border-b border-white/10">
         <div className="section-container h-20 flex items-center justify-between">
           {/* Logo */}
-          <div>
-            <h1 className="text-3xl font-black tracking-tight">
-              IKUTA<span className="text-orange-500">.</span>
-            </h1>
+          <div className="flex items-center gap-4">
+            <Image
+              src="/images/ikuta-logo.svg"
+              alt="IKUTA"
+              width={158}
+              height={35}
+              priority
+              className="h-8 w-auto invert"
+            />
 
-            <p className="text-[10px] tracking-[0.35em] text-zinc-400 mt-1">
-              JAPAN INDUSTRIAL SYSTEMS
+            <div className="hidden h-8 w-px bg-white/15 sm:block" />
+
+            <p className="hidden text-[10px] tracking-[0.35em] text-zinc-400 sm:block">
+              INDIA OPERATIONS
             </p>
           </div>
 
@@ -43,7 +51,7 @@ export default function Navbar() {
 
           {/* CTA */}
           <button className="hidden md:flex items-center gap-2 bg-orange-600 hover:bg-orange-500 transition-all duration-300 px-5 py-3 rounded-md text-sm font-medium">
-            Contact Us
+            Talk to Ikuta India
             <ArrowRight size={16} />
           </button>
         </div>

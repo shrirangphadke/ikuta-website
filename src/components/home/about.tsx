@@ -18,20 +18,27 @@ export default function About() {
           </p>
 
           <h2 className="text-5xl lg:text-6xl font-black leading-tight">
-            Japanese Precision Engineering for Global Manufacturing
+            100+ Years of Japanese
+            <br />
+            Engineering Heritage
           </h2>
 
           <p className="mt-10 text-zinc-700 text-lg leading-relaxed">
-            We specialize in premium industrial machinery,
-            copper strip processing systems, slitting lines
-            and advanced automation technologies designed
-            for modern manufacturing environments.
+            Founded in Kyoto in 1919, IKUTA SANKIKOGYO CO., LTD.
+            began as a small iron machinery workshop serving local
+            industry. Across more than a century, IKUTA has grown
+            into a specialized engineering company for advanced
+            non-ferrous metal production equipment.
           </p>
 
           <p className="mt-6 text-zinc-700 text-lg leading-relaxed">
-            Our engineering philosophy combines Japanese
-            precision, long-term reliability and modern
-            industrial innovation.
+            From copper strip processing and milling technologies
+            to surface treatment, automation, software, and lifecycle
+            support, IKUTA continues to carry forward Japanese
+            manufacturing discipline through practical innovation.
+            The India branch brings this heritage closer to Indian
+            manufacturers with reliable machinery, technical know-how,
+            and long-term service commitment.
           </p>
 
           <div className="mt-10 flex gap-10">
@@ -41,17 +48,17 @@ export default function About() {
               </h3>
 
               <p className="mt-2 text-sm uppercase tracking-[0.2em] text-zinc-500">
-                Founded
+                Founded in Kyoto
               </p>
             </div>
 
             <div>
               <h3 className="text-4xl font-black text-orange-600">
-                Japan
+                1953
               </h3>
 
               <p className="mt-2 text-sm uppercase tracking-[0.2em] text-zinc-500">
-                Engineering Heritage
+                Incorporated
               </p>
             </div>
           </div>

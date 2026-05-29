@@ -4,6 +4,8 @@ import Footer from "@/components/layout/footer";
 import Hero from "@/components/home/hero";
 import Stats from "@/components/home/stats";
 import About from "@/components/home/about";
+import HeritageStrip from "@/components/home/heritage-strip";
+import IndiaOperations from "@/components/home/india-operations";
 import Products from "@/components/home/products";
 import Industries from "@/components/home/industries";
 import WhyUs from "@/components/home/why-us";
@@ -19,6 +21,10 @@ export default function HomePage() {
       <Stats />
 
       <About />
+
+      <HeritageStrip />
+
+      <IndiaOperations />
 
       <Products />
 
